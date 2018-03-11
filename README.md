@@ -22,4 +22,4 @@ types, and expressions.
 <br>LO8. Understand and apply file handling and problem solving application
 
 <h3>Assignments: 40%</h3>
-<h3>examination: 60%</h3>
+<h3>Examination: 60%</h3>
