@@ -17,3 +17,4 @@ docker rm -f $(docker ps -a -q)
 #remove all docker images
 docker rmi -f $(docker images -a -q)
 
+**********
