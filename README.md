@@ -1,4 +1,4 @@
-# is1101 
+# IS1101 
 <h2>Programming and Problem Solving</h2>
 In this course, student will learn an overview and history of programming
 languages and different features of programing languages. Program design
