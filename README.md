@@ -1,5 +1,5 @@
 # is1101 
-Programming and Problem Solving
+<h2>Programming and Problem Solving</h2>
 In this course, student will learn an overview and history of programming
 languages and different features of programing languages. Program design
 techniques and programming also discuss in this course module. This course
