@@ -6,9 +6,9 @@ techniques and programming also discuss in this course module. This course
 will be introduced to programme design and development approaches
 including database accessing and file handling approaches. problem solving
 application will be discussed throughout the course
-
-<b>Upon completion of this course, students will be able to do the
-following:</b>
+<br>
+<h2>Upon completion of this course, students will be able to do the
+following:</h2>
 <br>LO1. Understand the overview and history of programming languages
 <br>LO2. Understand different programme design and development
 approaches
@@ -20,3 +20,6 @@ types, and expressions.
 <br>LO6. Learn how to write codes when solving simple problems,
 <br>LO7. Understand and apply control structures, sequential conditional and recursion
 <br>LO8. Understand and apply file handling and problem solving application
+
+<h3>Assignments: 40%</h3>
+<h3>examination: 60%</h3>
