@@ -1,3 +1,6 @@
+#Clone the repositry
+git clone https://github.com/ucsclabs/is1101-YOUR-NAME.git
+
 #Merge with master
 git pull
 
