@@ -1,0 +1,13 @@
+#Merge with master
+git pull
+
+#Add a new file
+git add filename
+
+#Commit your channges
+git commit -a
+
+#Push the changes to git
+#git push
+
+
