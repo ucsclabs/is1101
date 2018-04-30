@@ -2,6 +2,6 @@
 int main() {
 
  int testInteger = 5;
- printf("Number = %d \n", testInteger);
+//Print Integer here
  return 0;
 }

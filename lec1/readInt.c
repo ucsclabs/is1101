@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main() {
- float testInteger;
+ int testInteger;
 	        
  printf("Enter an integer: ");
- scanf("%f",&testInteger);  
-
- printf("Number = %.2f \n",testInteger);
+ //Read and print integer here
  return 0;
 }
