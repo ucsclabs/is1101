@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main(){
- printf("Ayubowan C\n");
+ printf("Ayubowan Kasun");
  return 0;
 }
