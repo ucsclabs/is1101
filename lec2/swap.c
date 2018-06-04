@@ -8,9 +8,11 @@ int main() {
 
  printf("Enter second number: ");
  scanf("%lf",&secondNumber);
-
+ temporaryVariable=firstNumber;
+ firstNumber=secondNumber;
+ secondNumber=temporaryVariable;
  //Swap two numbers
-
+ 
  printf("\nAfter swapping, firstNumber = %.2lf\n", firstNumber);
  printf("After swapping, secondNumber = %.2lf\n", secondNumber);
        
