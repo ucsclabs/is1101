@@ -10,8 +10,10 @@ int main() {
     isLowercaseVowel = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
 
     // evaluates to 1 (true) if c is an uppercase vowel
+    isuppercaseVowel = (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U');
 
     // evaluates to 1 (true) if either isLowercaseVowel or isUppercaseVowel is true
+    
    
    return 0;
 }
