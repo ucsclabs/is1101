@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main(){
-  int n, i,j;
+  int n, i;
   printf("Enter an integer: ");
   scanf("%d",&n);
- //Print multification table here
+  for(i=1;i<=n;i++){
+	printf("%d*%d=%d",n,i,n*i);
+}
 return 0;
 }

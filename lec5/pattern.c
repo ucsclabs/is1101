@@ -1,11 +1,21 @@
-#include <stdio.h>
 
-void pattern(int);
+#include <stdio.h>
+void pattern();
 
 int main(){
- pattern(4);
+	int n;
+	printf("Enter value of n: ");
+        scanf("%d", &n);
+        pattern();
 }
 
-void pattern(int n){
-//Implement it
+void pattern(){
+int i; int j;
+for(i=1;i<=4;i++){
+for(j=1; j<=i ; j++){
+printf("*");
 }
+print("\n");
+}
+}
+

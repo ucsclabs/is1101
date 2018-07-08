@@ -11,5 +11,10 @@ else return .15;
 }
 
 double interest(double amount){
-//Implement this function
+if (amount<=10000) return 0.04*amount;
+else if (amount<=100000) return .05*amount;
+else if (amount<=1000000) return .1*amount;
+else return .15*amount;
 }
+
+
