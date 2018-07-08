@@ -1,20 +1,54 @@
-int leap(int);
+i
+#include <stdio.h>
 
-int daysInMonth(int year,int n){
- int days=0;
- switch(n){
-   case 1:
-   case 3:
-   case 5:
-   case 7:
-   case 9:
-   case 2: 
-   case 4:
-   case 6:
-   case 8:
-   case 10:
-   case 12:
- }
- return days;
+int main()
+{
+    int month;
+    printf("Enter month number(1-12): ");
+    scanf("%d", &month);
+
+    switch(n)
+    {
+        case 1: 
+            printf("31 days");
+            break;
+        case 2: 
+            printf("28/29 days");
+            break;
+        case 3: 
+            printf("31 days");
+            break;
+        case 4: 
+            printf("30 days");
+            break;
+        case 5: 
+            printf("31 days");
+            break;
+        case 6: 
+            printf("30 days");
+            break;
+        case 7: 
+            printf("31 days");
+            break;
+        case 8: 
+            printf("31 days");
+            break;
+        case 9: 
+            printf("30 days");
+            break;
+        case 10: 
+            printf("31 days");
+            break;
+        case 11: 
+            printf("30 days");
+            break;
+        case 12: 
+            printf("31 days");
+            break;
+        default: 
+            printf("Invalid input! Please enter month number between 1-12");
+
+    }
+
+    return 0;
 }
-

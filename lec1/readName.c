@@ -3,6 +3,7 @@ int main() {
  char name[20];
 
  printf("Enter name: ");
-//Read your name and print it
+ scanf("%c",&name);
+ printf("my name is %c",name);
  return 0;
 }

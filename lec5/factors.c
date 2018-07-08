@@ -5,7 +5,11 @@ int main() {
   scanf("%d",&number);
 
   printf("Factors of %d are: ", number);
-  //Implement facters here
+  for(i=0; i<=number;i++){
+	if(number%i == 0)
+	{
+	printf("%d", i);
+	}
   printf("\n");
   return 0;
 }

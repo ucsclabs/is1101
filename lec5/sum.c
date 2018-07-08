@@ -1,9 +1,16 @@
 #include <stdio.h>
+int n, i, sum = 0;
+    
+    printf("Enter a positive integer: ");
+    scanf("%d",&n);
 
-int main(){
-int sum=0;
-//Write a for loop to add numbers
+    for(i=1; i <= n; ++i)
+    {
+        sum += i;  
+    }
 
+    printf("Sum = %d",sum);
 
-printf("Sum %d \n",sum);
+    return 0;
 }
+

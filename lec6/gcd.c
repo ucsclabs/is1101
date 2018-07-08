@@ -12,6 +12,9 @@ return 0;
 }
 
 int gcd(int x,int y){
-//implemment GCD function
+if (x != 0)
+	return gcd(y, x%y);
+else
+	return x;
 
 }

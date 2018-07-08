@@ -1,4 +1,4 @@
-# include <stdio.h>
+
 #include <stdlib.h>
 
 int main() {
@@ -12,14 +12,26 @@ int main() {
     scanf("%lf %lf",&firstNumber, &secondNumber);
 
     switch(operator){
-	 case '+':
-         case '-':
-         case '*':
-	 case '/':
-         default:
-              printf("Error! operator is not correct. \n");
-	      exit(1);
-      }
-     printf("%.2f %c %.2f = %.2f \n",firstNumber,operator,secondNumber,answer);
- return 0;
+	
+	case '+':
+            printf("%.1lf + %.1lf = %.1lf",firstNumber, secondNumber, firstNumber + secondNumber);
+            break;
+
+        case '-':
+            printf("%.1lf - %.1lf = %.1lf",firstNumber, secondNumber, firstNumber - secondNumber);
+            break;
+
+        case '*':
+            printf("%.1lf * %.1lf = %.1lf",firstNumber, secondNumber, firstNumber * secondNumber);
+            break;
+
+        case '/':
+            printf("%.1lf / %.1lf = %.1lf",firstNumber, secondNumber, firstNumber / secondNumber);
+            break;
+
+        
+        default:
+            printf("Error! operator is not correct");
+    }
+	return 0;
 }
