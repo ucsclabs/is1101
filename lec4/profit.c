@@ -1,12 +1,17 @@
 #include <stdio.h>
 
 //define profit(revenue,cost)
+#define profit(revenue,cost) (revenue-cost)
 
 //define revenue(price,n)
+#define revenue(price,n) (price*n)
+
 
 //define cost(n)
+#define cost 15
 
 //define attendees(price)
+#define attendees(price) 15
 
 int main(){
  int price=15;
