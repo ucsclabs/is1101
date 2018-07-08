@@ -3,6 +3,7 @@ int main() {
  int testInteger;
 	        
  printf("Enter an integer: ");
- //Read and print integer here
+ scanf("%d",&testInteger);
+ printf("%d",testInteger);
  return 0;
 }

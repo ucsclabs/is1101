@@ -3,6 +3,7 @@ int main() {
  float testNumber;
 	        
  printf("Enter a number: ");
- //read and print float
+ scanf("%f",&testNumber);
+ printf("%f",testNumber);
  return 0;
 }
