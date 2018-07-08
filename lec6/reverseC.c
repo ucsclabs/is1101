@@ -9,5 +9,14 @@ int main(){
 }
 
 void reverse(){
-//implement reverse function
+{
+    char c;
+    scanf("%c", &c);
+
+    if( c != '\n')
+    {
+        reverses();
+        printf("%c",c);
+    }
+}
 }

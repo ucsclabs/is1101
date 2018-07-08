@@ -16,6 +16,9 @@ int main() {
 }
 
 int power(int base, int powerRaised) {
-//Implemet power function
+	if(powerRaised != 0)
+		return (base*power(base,powerRaised-1));
+	else
+		return 1;
 
 }
